@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki AS Saint-Etienne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="accueil.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+          <h1>AS Saint-Étienne</h1>
+          <img src="https://billetterie.asse.fr/media/as-saint-etienne.png" alt="logo asse" width="100" height="100"/>
+          <nav>
+            <ul>
+              <li><a href="#histoire">Histoire</a></li>
+              <li><a href="#effectif">Effectif</a></li>
+              <li><a href="#palmares">Palmarès</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <div class="news-banner">
+        <marquee behavior="scroll" direction="left" scrollamount="6">
+          <span class="news-item">30. Gauthier Larsonneur</span>
+          <span class="news-item">16. Boubacar Fall</span>
+          <span class="news-item">42. Etienne Green</span>
+          <span class="news-item">3. Mickaël Nadé</span>
+          <span class="news-item">8. Denis Appaih</span>
+          <span class="news-item">13. Mahmoud Bentayg</span>
+          <span class="news-item">19. Léo Pétrot</span>
+          <span class="news-item">21. Dylan Batubinsika</span>
+          <span class="news-item">23. Anthony Briançon</span>
+          <span class="news-item">27. Yvan Maçon</span>
+          <span class="news-item">5. Florian Tardieu</span>
+          <span class="news-item">6. Benjamin Bouchouari</span>
+          <span class="news-item">7. Thomas Monconduit</span>
+          <span class="news-item">14. Dylan Chambost</span>
+          <span class="news-item">18. Mathieu Cafaro</span>
+          <span class="news-item">26. Lamine Fomba</span>
+          <span class="news-item">29. Aïmen Moueffek</span>
+          <span class="news-item">34. Antoine Ghautier</span>
+          <span class="news-item">9. Ibrahim Sissoko Larsonneur</span>
+          <span class="news-item">10. Nathanaël Mbuku</span>
+          <span class="news-item">11. Irvin Cardona</span>
+          <span class="news-item">17. Stéphane Diarra</span>
+          <span class="news-item">20. Maxence Rivera </span>
+          <span class="news-item">25. Ibrahima Wadji</span>
+        </marquee>
+    </div>
+    <main>
+        <section id="histoire">
+          <h2>Histoire</h2>
+          <p>L'Association sportive de Saint-Étienne est un club de football français fondé en 1919...</p>
+          <img src="images/stade_geoffroy_guichard.jpg" alt="Stade Geoffroy-Guichard">
+        </section>
+
+        <section id="palmares">
+            <h2>Palmarès</h2>
+            <div class="palmares-item">
+                <img src="https://www.asse.fr/img/palmares/D1.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X10</p>
+                <img src="https://www.asse.fr/img/palmares/CDL.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X1</p>
+                <img src="https://www.asse.fr/img/palmares/CDF.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X6</p>
+                <img src="https://www.asse.fr/img/palmares/TDC.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X5</p>
+                <img src="https://www.asse.fr/img/palmares/Drago.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X2</p>
+                <img src="https://www.asse.fr/img/palmares/D2.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X3</p>
+                <img src="https://www.asse.fr/img/palmares/Gambardella.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X4</p>
+                <img src="https://www.asse.fr/img/palmares/Fem.png" alt="trophée ligue 1" width="70" height="100">
+                <p>X1</p>
+            </div>
+        </section>
+    </main>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image1.jpg" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="image2.jpg" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <script src="scripts.js"></script>
+  <footer>
+    <p>&copy; 2024 AS Saint-Étienne</p>
+  </footer>
+</body>
+</html>
