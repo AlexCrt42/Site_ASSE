@@ -1,0 +1,229 @@
+#bandeau {
+	width:auto;
+	padding:25px;
+	margin:10px; /**margin:auto;= div au centre;**/
+	background-image: url(https://ns328286.ip-37-187-113.eu/ew/wallpapers/800x480/00071_800x480.jpg);
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+#DB {
+	padding:20px;
+	margin-bottom: 0px;
+}
+#sommaire {
+	width:250px; /**longueur max du texte**/
+	padding:70px 70px 70px 70px;
+	margin:10px;
+	background-image: url(https://indwallpapers.com/wp-content/uploads/2021/03/Call-OF-Duty-Wallpaper.jpeg);
+	background-size: cover;
+	color: white;
+	font-size: 35px;
+}
+#centre {
+	background-image: url(https://img.freepik.com/photos-premium/texture-feuille-or-jaune-brillant_38679-522.jpg?w=2000);
+	float:right;
+	padding:50px;
+	margin-top:10px;
+	margin-right: 200px;
+	text-align: center;
+}
+#next {
+  float:right;
+  padding:50px;
+  margin-top:500px;
+  margin-left: 10px;
+}
+#precedent {
+  float:right;
+  padding:50px;
+  margin-top:500px;
+  margin-left: 10px;
+  }
+.stretch, .button:after, .button:before {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  } 
+.button {
+  background: #0962EA;
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #0962EA), color-stop(100%, #0AA0F6));
+  background-image: -moz-linear-gradient(left, #0962EA, #0AA0F6);
+  background-image: -webkit-linear-gradient(left, #0962EA, #0AA0F6);
+  background-image: linear-gradient(to right, #0962EA, #0AA0F6);
+  -moz-border-radius: 1.5em;
+  -webkit-border-radius: 1.5em;
+  border-radius: 1.5em;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  border: none;
+  padding: 20px;
+  color: #FAF15D;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  outline: none;
+  overflow: hidden;
+  position: absolute;
+  cursor: pointer;
+  z-index: 99;
+}
+.button:after {
+  -moz-box-shadow: rgba(212, 207, 201, 0.75) 0 0 15px 2px;
+  -webkit-box-shadow: rgba(212, 207, 201, 0.75) 0 0 15px 2px;
+  box-shadow: rgba(212, 207, 201, 0.75) 0 0 15px 2px;
+  background: #FAF15D;
+  content: "";
+  height: 2px;
+  opacity: 0;
+}
+.button:before {
+  content: "";
+  opacity: 0;
+}
+.button:hover {
+  -webkit-animation: glitch 750ms infinite;
+}
+.button:hover:before {
+  opacity: 1;
+}
+.button:hover:after {
+  -webkit-animation: scan 2s infinite;
+  opacity: 1;
+}
+
+@-webkit-keyframes glitch {
+  0% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+  5% {
+    -moz-transform: skewX(2deg);
+    -ms-transform: skewX(2deg);
+    -webkit-transform: skewX(2deg);
+    transform: skewX(2deg);
+    opacity: 0.75;
+  }
+  10% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    opacity: 1;
+  }
+  15% {
+    -moz-transform: skewX(-5deg);
+    -ms-transform: skewX(-5deg);
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 0.75;
+  }
+  20% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    opacity: 1;
+  }
+  45% {
+    -moz-transform: skewX(3deg);
+    -ms-transform: skewX(3deg);
+    -webkit-transform: skewX(3deg);
+    transform: skewX(3deg);
+    opacity: 0.75;
+  }
+  50% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    opacity: 1;
+  }
+  55% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    opacity: 0.75;
+  }
+  60% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    opacity: 1;
+  }
+  75% {
+    -moz-transform: skewX(2deg);
+    -ms-transform: skewX(2deg);
+    -webkit-transform: skewX(2deg);
+    transform: skewX(2deg);
+  }
+  80% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+  85% {
+    -moz-transform: skewX(-8deg);
+    -ms-transform: skewX(-8deg);
+    -webkit-transform: skewX(-8deg);
+    transform: skewX(-8deg);
+    opacity: 0.75;
+  }
+  90% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+}
+@-webkit-keyframes scan {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 97%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+a:link, a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+body {
+	background-image: url(https://i.pinimg.com/originals/e8/44/cc/e844cca330436c649d24b28cc22d85bc.jpg);
+	background-size: cover;
+}
+img {
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-ms-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			transition: all 0.2s;
+			}
+			img:hover {
+			transform:scale(1.2);
+			}
+			a
+			{
+			    color: yellow;
+			}

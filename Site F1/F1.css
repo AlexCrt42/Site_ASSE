@@ -1,0 +1,94 @@
+#bandeau {
+	width:auto;
+	padding:25px;
+	margin:10px; /**margin:auto;= div au centre;**/
+	background-image: url(https://www.automoto-gp.com/wp-content/uploads/2022/05/La-Formule-1-participera-a-22-Grands-Prix-en-2022.jpg);
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+#DB {
+	padding:20px;
+	margin-bottom: 0px;
+}
+#gauche {
+  float:left;
+  padding:10px;
+  margin-top:10px;
+  margin-right: 10px;
+  text-align: center;
+}
+#milieu {
+	display: inline-block;
+	padding:10px;
+	margin-top:10px;
+	margin-right: 10px;
+	text-align: center;
+}
+#droite {
+  float:right;
+  padding:10px;
+  margin-top:10px;
+  margin-right: 10px;
+  text-align: center;
+}
+#next {
+  float:right;
+  padding:50px;
+  margin-top:500px;
+  margin-left: 10px;
+}
+#precedent {
+  float:right;
+  padding:50px;
+  margin-top:500px;
+  margin-left: 10px;
+  }
+a:link, a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+body {
+	background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download-118544/formula-1-hd.jpg);
+	background-size: cover;
+}
+img {
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-ms-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			transition: all 0.2s;
+			}
+			img:hover {
+			transform:scale(1.2);
+			}
+			a
+			{
+			    color: yellow;
+			}
+a {
+  background-color: black;
+}
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#lien_legende {
+	margin-right: 50px;
+}
+#bioLec {
+  background-color: black;
+  color: white;
+}
+table, caption, th, td {
+
+border: 2px solid black;
+  border-collapse: collapse;
+background-color: white;
+}
+p {
+	background-color: black;
+	color: white;
+}
