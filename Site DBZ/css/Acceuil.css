@@ -26,11 +26,27 @@ nav ul li a {
   text-decoration: none;
 }
 
+body {
+  background-image: url('../img/cover.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width:1000px;
+  height:1000px;
+  margin-left: 225px;
+}
+
 .rond1{
 border-radius:50%;
 width:100px;
 height:100px;
-background-image: url('https://www.pngfactory.net/_png/_thumb/dbz-2_ulluss_jeux-video.png');
+background-image: url('../img/cristal.png');
 background-size: cover;
 box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
 border:none;
@@ -45,8 +61,84 @@ margin:20px;
 border-radius:50%;
 width:100px;
 height:100px;
-background-image: url('https://www.livreshebdo.fr/sites/default/files/styles/article_principal/public/assets/images/akira_toriyama_dr.jpg?itok=0J-F2p9m');
+background-image: url('../img/histoire.webp');
 background-size: cover;
+box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+border:none;
+outline:none;
+font: 18px Tahoma bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px lighgrey;
+margin:20px;
+}
+
+.rond3{
+border-radius:50%;
+width:100px;
+height:100px;
+background-image: url('../img/perso.jpeg');
+background-size: cover;
+box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+border:none;
+outline:none;
+font: 18px Tahoma bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px lighgrey;
+margin:20px;
+}
+
+.rond4{
+border-radius:50%;
+width:100px;
+height:100px;
+background-image: url('../img/arcs.jpeg');
+background-size: cover;
+box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+border:none;
+outline:none;
+font: 18px Tahoma bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px lighgrey;
+margin:20px;
+}
+
+.rond5{
+border-radius:50%;
+width:100px;
+height:100px;
+background-image: url('../img/multi.jpeg');
+background-size: cover;
+box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+border:none;
+outline:none;
+font: 18px Tahoma bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px lighgrey;
+margin:20px;
+}
+
+.rond6{
+border-radius:50%;
+width:100px;
+height:100px;
+background-image: url('../img/Toriyama.jpeg');
+background-size: cover;
+box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+border:none;
+outline:none;
+font: 18px Tahoma bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px lighgrey;
+margin:20px;
+}
+
+.rond7{
+border-radius:50%;
+width:100px;
+height:100px;
+background-image: url('../img/actu.jpeg');
+background-size: cover;
+background-position: center;
 box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
 border:none;
 outline:none;
